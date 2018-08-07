@@ -1,4 +1,6 @@
-    exports.run = (client, message, args) => {
+const Discord = require("discord.js");
+
+    module.exports.run  = async (client, message, args) => {
 
         let sincon = message.guild.iconURL;
         let statusEmbed = new Discord.RichEmbed()
@@ -14,4 +16,8 @@
     
 
         return message.channel.send(statusEmbed);
+    }
+        module.exports.help = {
+            name: "status"
+
     };
