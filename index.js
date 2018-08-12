@@ -9,11 +9,6 @@ client.on('guildMemberAdd', member =>{
   member.send('Oiee nenem, ta no tédio? Entra no Discord Crazy-Life, Super recomendo, La muita coisa legal, Eventos Diarios, Desafios, e muitos Chats para Interação, Amizades etc.. :smiling_imp::smiling_imp::heart_eyes::heart:️ https://discord.gg/uadrpUG ')
 });
 
-client.on('ready', () => {
-	client.user.setActivity(`amor pro Near` , 'https://www.twitch.tv/monstercat');
-
-});
-
 client.on("message", message => {
   if (message.author.bot) return;
   if (!message.content.startsWith(config.prefix)) return;
