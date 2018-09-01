@@ -6,7 +6,7 @@ const config = require('./config.json');
 
 
 client.on('guildMemberAdd', member =>{
-  member.send('Oiee nenem, ta no tédio? Entra no Discord Crazy-Life, Super recomendo, La muita coisa legal, Eventos Diarios, Desafios, e muitos Chats para Interação, Amizades etc.. :smiling_imp::smiling_imp::heart_eyes::heart:️ https://discord.gg/dDunaF8 ')
+  member.send('Oiee nenem, ta no tédio? Entra no Discord Crazy-Life, Super recomendo, La muita coisa legal, Eventos Diarios, Desafios, e muitos Chats para Interação, Amizades etc.. :smiling_imp::smiling_imp::heart_eyes::heart:️ https://discord.gg/DSs3u38 ')
 });
 
 client.on("message", message => {
