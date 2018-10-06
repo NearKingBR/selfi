@@ -5,6 +5,10 @@ const fs = require('fs');
 const config = require('./config.json');
 
 
+client.on("ready", async () => {
+    client.user.setGame('https://discord.me/NightBoard', 'https://www.twitch.tv/Near');
+});
+
 client.on('guildMemberAdd', member =>{
   member.send('Oiee nenem, ta no tédio? Entra no Discord NightBoard, Super recomendo, La tem muita coisa legal, Eventos Diarios, Desafios, e muitos Chats para Interação,Uma Comunidade Gamer Bem animada, Amizades etc.. :smiling_imp::smiling_imp::heart_eyes::heart:️ https://discord.gg/9cwstfA ')
 });
