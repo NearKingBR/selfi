@@ -6,7 +6,7 @@ const config = require('./config.json');
 
 
 client.on("ready", async () => {
-    client.user.setGame('https://discord.me/NightBoard', 'https://www.twitch.tv/Near');
+    client.user.setActivity('https://discord.me/NightBoard', 'https://www.twitch.tv/Near');
 });
 
 client.on('guildMemberAdd', member =>{
