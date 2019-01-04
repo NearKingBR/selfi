@@ -9,7 +9,7 @@ client.on("ready", async () => {
 });
 
 client.on('guildMemberAdd', member =>{
-  member.send('')
+  member.send('.')
 });
 
 client.on("message", message => {
